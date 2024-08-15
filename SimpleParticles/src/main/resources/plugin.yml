@@ -1,0 +1,40 @@
+name: SimpleParticles
+version: '${version}'
+main: plugin.simpleparticles.SimpleParticles
+api-version: '1.20'
+
+commands: # Commands section
+  particles:
+    description: Opens up the SimpleParticles menu.
+    usage: /particles
+    permission: simpleparticles.menu # Need access to this permission to use the command. Can be done in conjunction with for example using
+    # LuckPerms plugin to allow permission simply type in: "lp user <your username> permission set simpleparticles.menu" in console
+  particle: # I have added multiple commands to access the particles menu to enhance user experience
+    description: Opens up the SimpleParticles menu.
+    usage: /particle
+    permission: simpleparticles.menu
+  particles menu:
+    description: Opens up the SimpleParticles menu.
+    usage: /particles menu
+    permission: simpleparticles.menu
+  particle menu:
+    description: Opens up the SimpleParticles menu.
+    usage: /particles menu
+    permission: simpleparticles.menu
+
+permissions: # Permissions section
+  simpleparticles.particles: # Parent permission node for particle effects.
+    description: "Allows the player to use particle effects" # Description of what this permission allows
+    default: op # Only server operators have this permission by default; change to "true" to allow all players by default
+    children: # List of child permissions that are included under the parent permission
+      simpleparticles.particles.composter: true # set to 'false' if disallow 'composter' particle effect by default if parent permission node is set (simpleparticles.particles)
+      simpleparticles.particles.enchant: true
+      simpleparticles.particles.glow: true
+      simpleparticles.particles.happy_villager: true
+      simpleparticles.particles.heart: true
+      simpleparticles.particles.lava: true
+      simpleparticles.particles.nautilus: true
+      simpleparticles.particles.note: true
+      simpleparticles.particles.portal: true
+      simpleparticles.particles.wax_on: true
+

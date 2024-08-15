@@ -1,0 +1,70 @@
+# Configuration file for particle effects
+particles:  # Define the particle settings for each type of particle
+    COMPOSTER:  # Settings for the "COMPOSTER" particle
+        count: 15  # Number of particles to spawn
+        offsetX: 0.5  # Horizontal spread of particles along the X-axis
+        offsetY: 0.5  # Vertical spread of particles along the Y-axis
+        offsetZ: 0.5  # Depth spread of particles along the Z-axis
+        intervalTicks: 10  # Time interval (in ticks) between each spawn
+    ENCHANT:  # Settings for the "ENCHANT" particle
+        count: 40  # Number of particles to spawn (increased for a more intense effect)
+        offsetX: 0.5  # Horizontal spread of particles along the X-axis
+        offsetY: 0.5  # Vertical spread of particles along the Y-axis
+        offsetZ: 0.5  # Depth spread of particles along the Z-axis
+        intervalTicks: 5  # Time interval (in ticks) between each spawn
+    GLOW:  # Settings for the "GLOW" particle
+        count: 15  # Number of particles to spawn
+        offsetX: 0.5  # Horizontal spread of particles along the X-axis
+        offsetY: 1  # Vertical spread of particles along the Y-axis
+        offsetZ: 0.5  # Depth spread of particles along the Z-axis
+        intervalTicks: 7  # Time interval (in ticks) between each spawn
+    HAPPY_VILLAGER:  # Settings for the "HAPPY_VILLAGER" particle
+        count: 15  # Number of particles to spawn
+        offsetX: 0.5  # Horizontal spread of particles along the X-axis
+        offsetY: 1  # Vertical spread of particles along the Y-axis
+        offsetZ: 0.5  # Depth spread of particles along the Z-axis
+        intervalTicks: 7  # Time interval (in ticks) between each spawn
+    HEART:  # Settings for the "HEART" particle
+        count: 8  # Number of particles to spawn
+        offsetX: 0.5  # Horizontal spread of particles along the X-axis
+        offsetY: 0.5  # Vertical spread of particles along the Y-axis
+        offsetZ: 0.5  # Depth spread of particles along the Z-axis
+        intervalTicks: 5  # Time interval (in ticks) between each spawn
+    LAVA:  # Settings for the "LAVA" particle
+        count: 15  # Number of particles to spawn
+        offsetX: 0.5  # Horizontal spread of particles along the X-axis
+        offsetY: 0.5  # Vertical spread of particles along the Y-axis
+        offsetZ: 0.5  # Depth spread of particles along the Z-axis
+        intervalTicks: 10  # Time interval (in ticks) between each spawn
+    NAUTILUS:  # Settings for the "NAUTILUS" particle
+        count: 40  # Number of particles to spawn
+        offsetX: 0.5  # Horizontal spread of particles along the X-axis
+        offsetY: 1  # Vertical spread of particles along the Y-axis
+        offsetZ: 0.5  # Depth spread of particles along the Z-axis
+        intervalTicks: 10  # Time interval (in ticks) between each spawn
+    NOTE:  # Settings for the "NOTE" particle
+        count: 15  # Number of particles to spawn
+        offsetX: 0.5  # Horizontal spread of particles along the X-axis
+        offsetY: 0.5  # Vertical spread of particles along the Y-axis
+        offsetZ: 0.5  # Depth spread of particles along the Z-axis
+        intervalTicks: 10  # Time interval (in ticks) between each spawn
+    PORTAL:  # Settings for the "PORTAL" particle
+        count: 40  # Number of particles to spawn
+        offsetX: 0.5  # Horizontal spread of particles along the X-axis
+        offsetY: 0.5  # Vertical spread of particles along the Y-axis
+        offsetZ: 0.5  # Depth spread of particles along the Z-axis
+        intervalTicks: 5  # Time interval (in ticks) between each spawn
+    SOUL_FIRE_FLAME:  # Settings for the "SOUL_FIRE_FLAME" particle
+        count: 15  # Number of particles to spawn
+        offsetX: 0.1  # Horizontal spread of particles along the X-axis
+        offsetY: 0.2  # Vertical spread of particles along the Y-axis
+        offsetZ: 0.1  # Depth spread of particles along the Z-axis
+        intervalTicks: 10  # Time interval (in ticks) between each spawn
+    WAX_ON:  # Settings for the "WAX_ON" particle
+        count: 15  # Number of particles to spawn
+        offsetX: 0.5  # Horizontal spread of particles along the X-axis
+        offsetY: 0.8  # Vertical spread of particles along the Y-axis
+        offsetZ: 0.5  # Depth spread of particles along the Z-axis
+        intervalTicks: 7  # Time interval (in ticks) between each spawn
+
+blocktrails:
